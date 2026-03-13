@@ -1,6 +1,6 @@
 terraform {
     backend "s3" {
-        bucket = "test-dev-remote-backend-demo"
+        bucket = "terraform-s3-state-lock-demo"
         key = "terraform.tfstate"
         region = "us-east-1"
         use_lockfile = true
