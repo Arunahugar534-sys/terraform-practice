@@ -4,7 +4,7 @@ terraform {
         key = "terraform.tfstate"
         region = "us-east-1"
         #use_lockfile = true
-        dynamodb_table = "terraform-state-lock-dynamo"
+        dynamodb_table = "database-dynamo-db"
       
     }
 }
