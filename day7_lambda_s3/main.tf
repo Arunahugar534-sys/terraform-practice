@@ -15,7 +15,7 @@ resource "aws_s3_object" "object" {
 #Creating IAM role
 
 resource "aws_iam_role" "lambda_admin_role" {
-  name = "lambda_execution_role"
+  name = "lambda_admin_role"
 
   assume_role_policy = jsonencode({
     Version = "2012-10-17"
