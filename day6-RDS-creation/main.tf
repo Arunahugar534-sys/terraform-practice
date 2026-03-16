@@ -14,3 +14,6 @@ resource "aws_db_instance" "default" {
     skip_final_snapshot = true
 
 }
+
+#parameter_group_name is more important for creating the RDS with this unable to create RDS in console
+#Always remember db.t3.micro is ths instance type to support RDS.
